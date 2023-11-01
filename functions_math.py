@@ -15,7 +15,7 @@ def Σ(i, n, v):
 
 # expected reward(configuration)
 def ER(c):
-    return Σ(1, 9, lambda i: V(f(i, c(i))))
+    return Σ(1, 5, lambda i: V(f(i, c(i))))
 
 # softmax(configuration)
 def P(c):
